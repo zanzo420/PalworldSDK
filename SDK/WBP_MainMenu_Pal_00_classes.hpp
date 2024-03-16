@@ -120,7 +120,7 @@ public:
 	FMulticastInlineDelegateProperty_            OnClickedAnyPalPanel;                              // 0x8B8(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	FMulticastInlineDelegateProperty_            OnHoveredAnyPalPanel;                              // 0x8C8(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	bool                                         IsShowStatusWithList;                              // 0x8D8(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_50AA[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_422F[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<class UWBP_MainMenu_Pal_Skill_Active_C*> ActiveSkillPanelArray;                             // 0x8E0(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	TArray<class UWBP_MainMenu_Pal_Skill_Passive_C*> PassiveSkillPanelArray;                            // 0x8F0(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	FMulticastInlineDelegateProperty_            OnUnhoveredAnyPalPanel;                            // 0x900(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
@@ -149,7 +149,7 @@ public:
 	struct FPalDataTableRowName_UIInputAction    RemoveWazaInputAction;                             // 0xA60(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	struct FPalUIActionBindData                  RemoveWazaActionHandle;                            // 0xA68(0x4)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	enum class EPalWazaID                        CachedSelectedWazaID;                              // 0xA6C(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_50AC[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4230[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	FMulticastInlineDelegateProperty_            OnRequestedRemoveWaza;                             // 0xA70(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	struct FDataTableRowHandle                   WorkTitleMsgID;                                    // 0xA80(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	struct FDataTableRowHandle                   WorkDescMsgID;                                     // 0xA90(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)

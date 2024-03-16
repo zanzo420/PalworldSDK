@@ -230,7 +230,7 @@ public:
 	int64                                        RequestTime;                                       // 0x30(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int64                                        ResponseTime;                                      // 0x38(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	uint8                                        DenialReason;                                      // 0x40(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_267F[0x7];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_1893[0x7];                                     // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x48 (0x48 - 0x0)
@@ -247,7 +247,7 @@ public:
 struct FOnlinePartyRepDataBase
 {
 public:
-	uint8                                        Pad_2680[0x18];                                    // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_1894[0x18];                                    // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x250 (0x268 - 0x18)
@@ -255,15 +255,15 @@ public:
 struct FPartyMemberRepData : public FOnlinePartyRepDataBase
 {
 public:
-	uint8                                        Pad_2681[0x8];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_1895[0x8];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPartyMemberPlatformData              PlatformData;                                      // 0x20(0x98)(NativeAccessSpecifierPrivate)
-	uint8                                        Pad_2682[0x90];                                    // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_1896[0x90];                                    // Fixing Size After Last Property  [ Dumper-7 ]
 	enum class ECrossplayPreference              CrossplayPreference;                               // 0x148(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	uint8                                        Pad_2683[0x37];                                    // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_1897[0x37];                                    // Fixing Size After Last Property  [ Dumper-7 ]
 	class FString                                JoinMethod;                                        // 0x180(0x10)(ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	uint8                                        Pad_2684[0x30];                                    // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_1898[0x30];                                    // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPartyMemberJoinInProgressData        JoinInProgressData;                                // 0x1C0(0x48)(NativeAccessSpecifierPrivate)
-	uint8                                        Pad_2685[0x60];                                    // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_1899[0x60];                                    // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x50 (0x50 - 0x0)
@@ -291,11 +291,11 @@ public:
 struct FPartyRepData : public FOnlinePartyRepDataBase
 {
 public:
-	uint8                                        Pad_2686[0x8];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_189A[0x8];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPartyPrivacySettings                 PrivacySettings;                                   // 0x20(0x3)(NoDestructor, Protected, NativeAccessSpecifierProtected)
-	uint8                                        Pad_2687[0x35];                                    // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_189B[0x35];                                    // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<struct FPartyPlatformSessionInfo>     PlatformSessions;                                  // 0x58(0x10)(ZeroConstructor, Protected, NativeAccessSpecifierProtected)
-	uint8                                        Pad_2688[0x18];                                    // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_189C[0x18];                                    // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x40 (0x40 - 0x0)
@@ -304,9 +304,9 @@ struct FSocialChatChannelConfig
 {
 public:
 	class USocialUser*                           SocialUser;                                        // 0x0(0x8)(ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_2689[0x10];                                    // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_189D[0x10];                                    // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<class USocialChatChannel*>            ListenChannels;                                    // 0x18(0x10)(ZeroConstructor, UObjectWrapper, NativeAccessSpecifierPublic)
-	uint8                                        Pad_268A[0x18];                                    // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_189E[0x18];                                    // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 }

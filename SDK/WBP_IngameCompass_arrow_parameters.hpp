@@ -19,7 +19,7 @@ struct UWBP_IngameCompass_arrow_C_ChangeBorderDrawType_Params
 {
 public:
 	enum class ESlateBrushDrawType               DrawType;                                          // 0x0(0x1)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_55A6[0xF];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_53CF[0xF];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FSlateBrush                           K2Node_Copy_ReturnValue;                           // 0x10(0xD0)(None)
 	struct FSlateBrush                           K2Node_SetFieldsInStruct_StructOut;                // 0xE0(0xD0)(None)
 };

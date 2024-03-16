@@ -14,7 +14,7 @@ namespace SDK
 class ABP_PalCharacterMaterialVolume_C : public ABP_PickMainMeshVolume_C
 {
 public:
-	uint8                                        Pad_4EBC[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4E90[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x2B0(0x8)(ZeroConstructor, Transient, DuplicateTransient)
 	double                                       Base_Emissive_Intensity;                           // 0x2B8(0x8)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, Interp, NoDestructor, HasGetValueTypeHash)
 	double                                       Base_Color_Intensity;                              // 0x2C0(0x8)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, Interp, NoDestructor, HasGetValueTypeHash)

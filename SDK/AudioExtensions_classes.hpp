@@ -94,7 +94,7 @@ class UAudioCodecEncoderSettings : public UObject
 {
 public:
 	int32                                        Version;                                           // 0x28(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_F97[0x4];                                      // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_3306[0x4];                                     // Fixing Size Of Struct [ Dumper-7 ]
 
 	static class UClass* StaticClass();
 	static class UAudioCodecEncoderSettings* GetDefaultObj();
@@ -128,7 +128,7 @@ public:
 class USoundModulatorBase : public UObject
 {
 public:
-	uint8                                        Pad_F9A[0x8];                                      // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_3307[0x8];                                     // Fixing Size Of Struct [ Dumper-7 ]
 
 	static class UClass* StaticClass();
 	static class USoundModulatorBase* GetDefaultObj();
@@ -198,7 +198,7 @@ class UAudioPcmEncoderSettings : public UAudioCodecEncoderSettings
 {
 public:
 	enum class EPcmBitDepthConversion            BitDepthConversion;                                // 0x30(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_F9D[0x7];                                      // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_3308[0x7];                                     // Fixing Size Of Struct [ Dumper-7 ]
 
 	static class UClass* StaticClass();
 	static class UAudioPcmEncoderSettings* GetDefaultObj();

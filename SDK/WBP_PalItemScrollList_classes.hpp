@@ -14,7 +14,7 @@ namespace SDK
 class UWBP_PalItemScrollList_C : public UWBP_PalCommonScrollList_C
 {
 public:
-	uint8                                        Pad_530B[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4ACA[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x440(0x8)(ZeroConstructor, Transient, DuplicateTransient)
 	FMulticastInlineDelegateProperty_            OnLeftClickedSlot;                                 // 0x448(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	FMulticastInlineDelegateProperty_            OnMiddleClickedSlot;                               // 0x458(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
@@ -27,7 +27,7 @@ public:
 	FMulticastInlineDelegateProperty_            OnDragDetectedSlot;                                // 0x4C0(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	bool                                         IsDisplayItemInfo;                                 // 0x4D0(0x1)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsEnableQuickMoveSlot;                             // 0x4D1(0x1)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_530C[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4ACB[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class UWBP_PalItemSlotButtonBase_C*          CachedLastHoveredSlotButton;                       // 0x4D8(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
 	class UWBP_PalItemSlotButtonBase_C*          CachedNowHoveringSlotButton;                       // 0x4E0(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
 	class UPalItemContainer*                     QuickMoveTargetContainer;                          // 0x4E8(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)

@@ -22,7 +22,7 @@ public:
 	class UStaticMesh*                           RiverSplineMesh_60_55DB51C74ADB81AE8B3C67B1E701AC70; // 0x0(0x8)(Edit, BlueprintVisible, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	class UMaterial*                             SplineMaterial_38_D0D297DF41688E686403848C672F8D41; // 0x8(0x8)(Edit, BlueprintVisible, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	float                                        Spacing_16_A1850B9941C9F1CE594A6D8E4D2B6C72;       // 0x10(0x4)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_5375[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4C3F[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FVector                               Scale_17_0FF21A994C9965DF5D70EB8E0B857472;         // 0x18(0x18)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FVector                               Offset_18_04ECFFEB41DE1C636D2E66B03104C5E7;        // 0x30(0x18)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FRotator                              Rotation_19_8934B08D49E62A953A970696627EBA95;      // 0x48(0x18)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor)

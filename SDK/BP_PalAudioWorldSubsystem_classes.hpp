@@ -16,13 +16,13 @@ class UBP_PalAudioWorldSubsystem_C : public UPalAudioWorldSubsystem
 public:
 	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x80(0x8)(ZeroConstructor, Transient, DuplicateTransient)
 	bool                                         IsDead;                                            // 0x88(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_3CB7[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4885[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class AActor*                                DeubugModel;                                       // 0x90(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	class AActor*                                LastOneEnemy;                                      // 0x98(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	TArray<struct FGuid>                         ExecRaid;                                          // 0xA0(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 	TArray<struct FGuid>                         ArrivedRaid;                                       // 0xB0(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 	bool                                         IsLocalPlayerInsideBaseCamp;                       // 0xC0(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_3CBA[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4888[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<class APalSpotAreaBase*>              SpotList;                                          // 0xC8(0x10)(Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance)
 	TArray<class APalAmbientSoundAreaBase*>      AmbientSoundList;                                  // 0xD8(0x10)(Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance)
 	TArray<class APalAmbientSoundAreaBase*>      AmbientSoundListPrev;                              // 0xE8(0x10)(Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance)

@@ -77,12 +77,12 @@ public:
 	TSoftObjectPtr<class UPalIndividualCharacterHandle> LastDisplayedHandle;                               // 0x758(0x30)(Edit, BlueprintVisible, DisableEditOnInstance, HasGetValueTypeHash)
 	TArray<class UWBP_MainMenu_Pal_Skill_Active_C*> WazaWidgetArray;                                   // 0x788(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	float                                        SavedMaxHunger;                                    // 0x798(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_2AB8[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_581D[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<class UWBP_MainMenu_Pal_Skill_Passive_C*> PassiveSkillWidgetArray;                           // 0x7A0(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	TArray<class UWBP_MainMenu_Pal_State_C*>     ConditionWidgetArray;                              // 0x7B0(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	class UMaterial*                             DefaultSanityFontMaterial;                         // 0x7C0(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	float                                        SavedMaxSanity;                                    // 0x7C8(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_2ABA[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_581E[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<class UWBP_MainMenu_PalRarityStar_C*> RarityWidgetArray;                                 // 0x7D0(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	TMap<enum class EPalWorkSuitability, class UWBP_MainMenu_Pal_WorkIcon_C*> WorkSuitabilityWidgetMap;                          // 0x7E0(0x50)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 

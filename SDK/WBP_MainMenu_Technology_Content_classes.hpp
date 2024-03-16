@@ -42,14 +42,14 @@ public:
 	FMulticastInlineDelegateProperty_            OnUnhoveredButton;                                 // 0x4D8(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	FMulticastInlineDelegateProperty_            OnClickedButton;                                   // 0x4E8(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	bool                                         IsFocused;                                         // 0x4F8(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_511A[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4E3A[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FDataTableRowHandle                   UnlockBuildObjectInfoMsgId;                        // 0x500(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	struct FDataTableRowHandle                   UnlockRecipeInfoMsgId;                             // 0x510(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	struct FDataTableRowHandle                   MaskUnknownMsgId;                                  // 0x520(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	class FName                                  BindedTechnologyName;                              // 0x530(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         ShouldMask;                                        // 0x538(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         Is_Boss_Technology;                                // 0x539(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_511B[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4E3B[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FDataTableRowHandle                   BuildingMsgId;                                     // 0x540(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	struct FDataTableRowHandle                   ItemMsgId;                                         // 0x550(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 

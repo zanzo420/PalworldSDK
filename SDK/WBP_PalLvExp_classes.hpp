@@ -36,13 +36,13 @@ public:
 	bool                                         IsLevelUp;                                         // 0x610(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsNewMove;                                         // 0x611(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsDisplaying;                                      // 0x612(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_B5A[0x1];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_53FD[0x1];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	int32                                        LastLevel;                                         // 0x614(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FDataTableRowHandle                   LevelUpMsgID;                                      // 0x618(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	struct FDataTableRowHandle                   NewMoveMsgID;                                      // 0x628(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	class FName                                  CachedCharacterID;                                 // 0x638(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	int32                                        StackExp;                                          // 0x640(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_B5B[0x4];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_53FE[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<enum class EPalWazaID>                NewWazaIDArray;                                    // 0x648(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 
 	static class UClass* StaticClass();

@@ -21,7 +21,7 @@ public:
 	class UWBP_Title_WorldSettings_C*            WBP_Title_WorldSettings;                           // 0x598(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	struct FDataTableRowHandle                   WaitingSaveMsgID;                                  // 0x5A0(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	bool                                         Is_New_World;                                      // 0x5B0(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_38AA[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_3A26[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class UBP_HUDDispatchParameter_WorldNameInput_C* WorldNameInputDispatchParameter;                   // 0x5B8(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 
 	static class UClass* StaticClass();

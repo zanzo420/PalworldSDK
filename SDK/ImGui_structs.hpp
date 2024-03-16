@@ -39,7 +39,7 @@ public:
 	enum class ECheckBoxState                    Ctrl;                                              // 0x19(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	enum class ECheckBoxState                    Alt;                                               // 0x1A(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	enum class ECheckBoxState                    Cmd;                                               // 0x1B(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_118C[0x4];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_2857[0x4];                                     // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x10 (0x10 - 0x0)
@@ -48,11 +48,11 @@ struct FImGuiCanvasSizeInfo
 {
 public:
 	enum class EImGuiCanvasSizeType              SizeType;                                          // 0x0(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_118D[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_2858[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	int32                                        Width;                                             // 0x4(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int32                                        Height;                                            // 0x8(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                         bExtendToViewport;                                 // 0xC(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_118F[0x3];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_2859[0x3];                                     // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x98 (0x98 - 0x0)
@@ -61,11 +61,11 @@ struct FImGuiDPIScaleInfo
 {
 public:
 	enum class EImGuiDPIScaleMethod              ScalingMethod;                                     // 0x0(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	uint8                                        Pad_1190[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_285A[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	float                                        Scale;                                             // 0x4(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	struct FRuntimeFloatCurve                    DPICurve;                                          // 0x8(0x88)(Edit, Config, Protected, NativeAccessSpecifierProtected)
 	bool                                         bScaleWithCurve;                                   // 0x90(0x1)(Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	uint8                                        Pad_1191[0x7];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_285B[0x7];                                     // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 }

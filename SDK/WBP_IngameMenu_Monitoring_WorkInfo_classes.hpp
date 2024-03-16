@@ -19,7 +19,7 @@ public:
 	class UBP_PalTextBlock_C*                    Text_Category;                                     // 0x288(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	class UBP_PalTextBlock_C*                    Text_Category_1;                                   // 0x290(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	int32                                        EffectID;                                          // 0x298(0x4)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_51FB[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4AEC[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<struct FDataTableRowHandle>           EffectMsgIDs;                                      // 0x2A0(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 	TArray<struct FDataTableRowHandle>           EffectLevelMsgIDs;                                 // 0x2B0(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 

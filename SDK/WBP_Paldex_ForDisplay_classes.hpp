@@ -21,9 +21,9 @@ public:
 	struct FPalUIActionBindData                  ToModelInputHandle;                                // 0x4B0(0x4)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	struct FPalUIActionBindData                  ToDistributionInputHandle;                         // 0x4B4(0x4)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	bool                                         IsDisplayDistribution;                             // 0x4B8(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_423B[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5645[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class FName                                  NowDisplayCharacterID;                             // 0x4BC(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_423C[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5646[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	double                                       MapControllWeight_Gamepad;                         // 0x4C8(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	double                                       MapControllWeight_Mouse;                           // 0x4D0(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FRotator                              CaptureCameraRotator;                              // 0x4D8(0x18)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
@@ -31,11 +31,11 @@ public:
 	struct FPalDataTableRowName_UIInputAction    ChangeDistributionTimeAction;                      // 0x4F8(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	struct FPalUIActionBindData                  ChangeDistributionTimeActionHandle;                // 0x500(0x4)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	enum class E_PaldexDistributionTimeType      NowDisplayDistributionTimeType;                    // 0x504(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_423D[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5647[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	double                                       DistributionZoomWeight_Mouse;                      // 0x508(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FPalDataTableRowName_UIInputAction    ChangeDistributionZoomAction;                      // 0x510(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	struct FPalUIActionBindData                  ChangeDistributionZoomActionHandle;                // 0x518(0x4)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
-	uint8                                        Pad_423E[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5648[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	FMulticastInlineDelegateProperty_            OnAllNewFlagCleared;                               // 0x520(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	struct FPalDataTableRowName_UIInputAction    RandomCryAction;                                   // 0x530(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	struct FPalUIActionBindData                  RandomCryActionHandle;                             // 0x538(0x4)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)

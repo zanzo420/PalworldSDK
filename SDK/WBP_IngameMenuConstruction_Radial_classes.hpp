@@ -44,9 +44,9 @@ public:
 	TMap<enum class EPalBuildObjectTypeA, class UWBP_IngameMenuConstruction_Tab_C*> Tabs;                                              // 0x528(0x50)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	int32                                        CurrentPageIndex;                                  // 0x578(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	enum class EPalBuildObjectTypeA              CurrentCategory;                                   // 0x57C(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_37C0[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_57E5[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	int32                                        SelectedIndex;                                     // 0x580(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_37C1[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_57E6[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<struct FPalBuildObjectData>           CurrentPageObjects;                                // 0x588(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 	FMulticastInlineDelegateProperty_            OnBuildModeStart;                                  // 0x598(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	struct FPalDataTableRowName_UIInputAction    OpenDismantling;                                   // 0x5A8(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)

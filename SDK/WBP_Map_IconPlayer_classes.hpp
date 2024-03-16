@@ -14,12 +14,12 @@ namespace SDK
 class UWBP_Map_IconPlayer_C : public UWBP_WorldMap_IconBase_NoDesign_C
 {
 public:
-	uint8                                        Pad_55D6[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_2A0A[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x458(0x8)(ZeroConstructor, Transient, DuplicateTransient)
 	class UImage*                                Arrow;                                             // 0x460(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	class UBP_PalTextBlock_C*                    Text_PlayerName;                                   // 0x468(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	class UWBP_PalCommonButton_C*                WBP_PalCommonButton;                               // 0x470(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
-	uint8                                        Pad_55D7[0x8];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_2A0B[0x8];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPalPlayerInfoForMap                  Cached_Map_Info;                                   // 0x480(0x70)(Edit, BlueprintVisible, DisableEditOnInstance)
 
 	static class UClass* StaticClass();

@@ -17,7 +17,7 @@ public:
 	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x148(0x8)(ZeroConstructor, Transient, DuplicateTransient)
 	struct FVector                               MoveTargetPos;                                     // 0x150(0x18)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         FailureLineTrace;                                  // 0x168(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_4A07[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_B71[0x7];                                      // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<struct FVector>                       MoveVectorCandidate;                               // 0x170(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 	int32                                        SelectIndex;                                       // 0x180(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 

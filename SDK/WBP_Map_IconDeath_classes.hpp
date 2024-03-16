@@ -14,7 +14,7 @@ namespace SDK
 class UWBP_Map_IconDeath_C : public UWBP_WorldMap_IconBase_NoDesign_C
 {
 public:
-	uint8                                        Pad_484F[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_53B1[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class UImage*                                Icon;                                              // 0x458(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 
 	static class UClass* StaticClass();

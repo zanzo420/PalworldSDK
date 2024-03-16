@@ -21,7 +21,7 @@ public:
 	class UWBP_Title_WorldSelect_C*              WBP_Title_WorldSelect;                             // 0x488(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	enum class EPalUIServerListSortType          SortType;                                          // 0x490(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	enum class EPalUIServerListFilterType        ServerFilterType;                                  // 0x491(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_4CE4[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4D2A[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPalUIServerDisplayData               ClickedServerInfo;                                 // 0x498(0x1A0)(Edit, BlueprintVisible, DisableEditOnInstance)
 	struct FDataTableRowHandle                   JoinServerDialogMsgID;                             // 0x638(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	TSoftObjectPtr<class UWBP_Title_WorldSelect_ListContent_C> LastClickedServerButton;                           // 0x648(0x30)(Edit, BlueprintVisible, DisableEditOnInstance, InstancedReference, HasGetValueTypeHash)

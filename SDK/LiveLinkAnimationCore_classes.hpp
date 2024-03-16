@@ -39,7 +39,7 @@ public:
 class ULiveLinkRemapAsset : public ULiveLinkRetargetAsset
 {
 public:
-	uint8                                        Pad_3B69[0xA0];                                    // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_3958[0xA0];                                    // Fixing Size Of Struct [ Dumper-7 ]
 
 	static class UClass* StaticClass();
 	static class ULiveLinkRemapAsset* GetDefaultObj();

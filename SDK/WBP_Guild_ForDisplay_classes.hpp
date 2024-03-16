@@ -27,7 +27,7 @@ public:
 	struct FTimerHandle                          WaitingExitGuildTimeoutTimerHandle;                // 0x520(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	struct FTimerHandle                          CheckNewGroupTimerHandle;                          // 0x528(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsSelectingMemberMenu;                             // 0x530(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_528C[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_D49[0x7];                                      // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FDataTableRowHandle                   BanPlayerDialogMsgID;                              // 0x538(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	struct FDataTableRowHandle                   ChangeAdminDialogMsgID;                            // 0x548(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	TSoftObjectPtr<class UWBP_Guild_MemberList_C> SelectionPlayerWidget;                             // 0x558(0x30)(Edit, BlueprintVisible, DisableEditOnInstance, InstancedReference, HasGetValueTypeHash)

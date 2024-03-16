@@ -19,7 +19,7 @@ struct UWBP_Map_IconBoss_C_SetBoss_Params
 {
 public:
 	bool                                         IsDefeated;                                        // 0x0(0x1)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_3C00[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_53B2[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPalSpawnerOneTribeInfo               SpawnerInfo;                                       // 0x4(0x20)(BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
 };
 
@@ -50,9 +50,9 @@ public:
 	enum class ESlateVisibility                  Temp_byte_Variable_1;                              // 0x6(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	enum class ESlateVisibility                  K2Node_Select_Default;                             // 0x7(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         K2Node_CustomEvent_IsDefeated;                     // 0x8(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_3C04[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_53B3[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPalSpawnerOneTribeInfo               K2Node_CustomEvent_SpawnerInfo;                    // 0xC(0x20)(NoDestructor)
-	uint8                                        Pad_3C05[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_53B4[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class UCommonButtonBase*                     K2Node_ComponentBoundEvent_Button_1;               // 0x30(0x8)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
 	class UCommonButtonBase*                     K2Node_ComponentBoundEvent_Button;                 // 0x38(0x8)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
 };

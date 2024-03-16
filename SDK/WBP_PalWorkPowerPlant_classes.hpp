@@ -30,7 +30,7 @@ public:
 	struct FTimerHandle                          DisplayCheckTimer;                                 // 0x470(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	struct FTimerHandle                          ChangeCheckTimer;                                  // 0x478(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsDisplayedDetail;                                 // 0x480(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_2267[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5609[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<class UWBP_PalCraftInfo_Pal_C*>       Pal_Infos;                                         // 0x488(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	class UPalMapObjectGenerateEnergyModel*      Model;                                             // 0x498(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	TArray<class UWBP_PalWorkPowerPlant_Gauge_C*> Gauges;                                            // 0x4A0(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)

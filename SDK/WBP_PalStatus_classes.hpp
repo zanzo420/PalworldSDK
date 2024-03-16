@@ -31,7 +31,7 @@ public:
 	struct FPalDataTableRowName_UIInputAction    ToSkillDetailAction;                               // 0x49C(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	struct FPalUIActionBindData                  ToSkillDetailActionHandle;                         // 0x4A4(0x4)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	bool                                         IsOnePalModel;                                     // 0x4A8(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_51CA[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5733[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPalDataTableRowName_UIInputAction    DropPalAction;                                     // 0x4AC(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	struct FPalUIActionBindData                  DropPalActionHandle;                               // 0x4B4(0x4)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	class UPalIndividualCharacterHandle*         LastHoveredPalHandle;                              // 0x4B8(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)

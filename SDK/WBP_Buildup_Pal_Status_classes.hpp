@@ -29,21 +29,21 @@ public:
 	TArray<class UWBP_Buildup_Pal_StatusContent_C*> StatusContents;                                    // 0x2D8(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	TArray<enum class EPalCharacterStatusOperationName> StatusTypes;                                       // 0x2E8(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 	enum class EPalCharacterStatusOperationName  CurrentStatus;                                     // 0x2F8(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_5014[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_3173[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FDataTableRowHandle                   RankupMsgId;                                       // 0x300(0x10)(Edit, BlueprintVisible, NoDestructor)
 	struct FDataTableRowHandle                   ResetMsgId;                                        // 0x310(0x10)(Edit, BlueprintVisible, NoDestructor)
 	struct FDataTableRowHandle                   RankupButtonMsgID;                                 // 0x320(0x10)(Edit, BlueprintVisible, NoDestructor)
 	struct FDataTableRowHandle                   ResetButtonMsgID;                                  // 0x330(0x10)(Edit, BlueprintVisible, NoDestructor)
 	struct FDataTableRowHandle                   ResetResultMsgId;                                  // 0x340(0x10)(Edit, BlueprintVisible, NoDestructor)
 	int32                                        Target_Rank;                                       // 0x350(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_5015[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_3174[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	FMulticastInlineDelegateProperty_            InvokeRankUp;                                      // 0x358(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	bool                                         BlockInvoke;                                       // 0x368(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         Is_Upgrade;                                        // 0x369(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_5016[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_3175[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<class UWBP_Buildup_Pal_Item_C*>       Upgrade_Items;                                     // 0x370(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	int32                                        RequiredMoney;                                     // 0x380(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_5017[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_3176[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	FMulticastInlineDelegateProperty_            InvokeReset;                                       // 0x388(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	TArray<class FName>                          Item_Ids;                                          // 0x398(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 

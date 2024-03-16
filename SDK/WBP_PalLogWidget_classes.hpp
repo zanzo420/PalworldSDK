@@ -24,7 +24,7 @@ public:
 	TArray<class UPalLogWidgetBase*>             ImportantLogList;                                  // 0x448(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	double                                       MoveTime;                                          // 0x458(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	int32                                        MaxDisplayImportantLog;                            // 0x460(0x4)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_3F4F[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_3F65[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FSoftObjectPath                       Icon_Path;                                         // 0x468(0x20)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, HasGetValueTypeHash)
 	TMap<struct FGuid, class UPalLogWidgetBase*> VeryImportantLogMap;                               // 0x488(0x50)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	float                                        Normal_Log_Display_Time;                           // 0x4D8(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)

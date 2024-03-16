@@ -32,7 +32,7 @@ public:
 	struct FDataTableRowHandle                   InvaderGroupName;                                  // 0x78(0x10)(Edit, BlueprintVisible, NoDestructor)
 	struct FDataTableRowHandle                   TitleMsgID;                                        // 0x88(0x10)(Edit, BlueprintVisible, NoDestructor)
 	bool                                         CallFunc_IsValid_ReturnValue;                      // 0x98(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_588C[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5339[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class FText                                  CallFunc_GetLocalizedText_ReturnValue;             // 0xA0(0x18)(None)
 	struct FFormatArgumentData                   K2Node_MakeStruct_FormatArgumentData;              // 0xB8(0x50)(HasGetValueTypeHash)
 	TArray<struct FFormatArgumentData>           K2Node_MakeArray_Array;                            // 0x108(0x10)(ReferenceParm)

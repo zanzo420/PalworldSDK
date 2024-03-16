@@ -33,7 +33,7 @@ public:
 	FMulticastInlineDelegateProperty_            OnHoveredSlot;                                     // 0x490(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	FMulticastInlineDelegateProperty_            OnUnhoveredSlot;                                   // 0x4A0(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	bool                                         Selected;                                          // 0x4B0(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_52AF[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_561A[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TMap<class FName, int32>                     MatMap;                                            // 0x4B8(0x50)(Edit, BlueprintVisible, DisableEditOnInstance)
 	class FName                                  Product_Id;                                        // 0x508(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FTimerHandle                          UpdateSufficientTimer;                             // 0x510(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)

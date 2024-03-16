@@ -16,7 +16,7 @@ class ABP_Ground_C : public AStaticMeshActor
 public:
 	class UStaticMeshComponent*                  BottomLayer;                                       // 0x2A0(0x8)(BlueprintVisible, ZeroConstructor, InstancedReference, NonTransactional, NoDestructor, HasGetValueTypeHash)
 	int32                                        Mode;                                              // 0x2A8(0x4)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_4EFD[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4EDE[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class UMaterialInstance*                     UnlitOpaque;                                       // 0x2B0(0x8)(Edit, BlueprintVisible, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	class UMaterialInstance*                     LitOpaque;                                         // 0x2B8(0x8)(Edit, BlueprintVisible, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	class UMaterialInstance*                     UnlitTranslucent;                                  // 0x2C0(0x8)(Edit, BlueprintVisible, ZeroConstructor, NoDestructor, HasGetValueTypeHash)

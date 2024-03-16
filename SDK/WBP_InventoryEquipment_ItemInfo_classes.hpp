@@ -73,7 +73,7 @@ public:
 	class UWBP_ShopSellPrice_C*                  WBP_ShopSellPrice;                                 // 0x5C8(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	enum class E_PalUIItemInfoWindowDIsplayType  NowDisplayType;                                    // 0x5D0(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	enum class E_PalUIItemInfoWindowDIsplayType  DefaultDisplayType;                                // 0x5D1(0x1)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_4CAA[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4CE1[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TMap<enum class EPalItemTypeA, struct FDataTableRowHandle> MainParamMsgIDMap;                                 // 0x5D8(0x50)(Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance)
 	TMap<enum class EPalItemTypeA, struct FDataTableRowHandle> SubParamMsgIDMap;                                  // 0x628(0x50)(Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance)
 	struct FDataTableRowHandle                   MainParamShieldOverrideMsgID;                      // 0x678(0x10)(Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance, NoDestructor)
@@ -86,7 +86,7 @@ public:
 	struct FDataTableRowHandle                   MaskedTechDescMsgID;                               // 0x700(0x10)(Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance, NoDestructor)
 	TArray<struct FDataTableRowHandle>           RarityMsgIDs;                                      // 0x710(0x10)(Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance)
 	bool                                         IsBossTechPoint;                                   // 0x720(0x1)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_4CAB[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4CE2[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FDataTableRowHandle                   NormalMsgId;                                       // 0x728(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 
 	static class UClass* StaticClass();

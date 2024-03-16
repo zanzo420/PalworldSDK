@@ -27,7 +27,7 @@ public:
 	class UStaticMeshComponent*                  SM_Tower;                                          // 0x348(0x8)(BlueprintVisible, ZeroConstructor, InstancedReference, NonTransactional, NoDestructor, HasGetValueTypeHash)
 	class USceneComponent*                       DefaultSceneRoot;                                  // 0x350(0x8)(BlueprintVisible, ZeroConstructor, InstancedReference, NonTransactional, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsOpen;                                            // 0x358(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_3E25[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4ED8[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FDataTableRowHandle                   DialogMsgID;                                       // 0x360(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	TSoftObjectPtr<class APalPlayerCharacter>    CachedRequestStartBattlePlayer;                    // 0x370(0x30)(Edit, BlueprintVisible, DisableEditOnInstance, HasGetValueTypeHash)
 	struct FGuid                                 DialogUId;                                         // 0x3A0(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)

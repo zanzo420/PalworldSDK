@@ -19,7 +19,7 @@ namespace SDK
 struct FTrackRenderData
 {
 public:
-	uint8                                        Pad_330C[0xC0];                                    // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_3141[0xC0];                                    // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0xC (0xC - 0x0)
@@ -27,7 +27,7 @@ public:
 struct FGeometryCacheMeshBatchInfo
 {
 public:
-	uint8                                        Pad_330D[0xC];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_3142[0xC];                                     // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x9 (0x9 - 0x0)
@@ -35,7 +35,7 @@ public:
 struct FGeometryCacheVertexInfo
 {
 public:
-	uint8                                        Pad_330E[0x9];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_3143[0x9];                                     // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0xC8 (0xC8 - 0x0)
@@ -43,7 +43,7 @@ public:
 struct FGeometryCacheMeshData
 {
 public:
-	uint8                                        Pad_330F[0xC8];                                    // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_3144[0xC8];                                    // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x38 (0x38 - 0x0)

@@ -24,12 +24,12 @@ public:
 	TMap<enum class EPalInteractiveObjectActionType, class UWBP_PalInteractiveObjectIndicatorUI_C*> IndicatorUIs;                                      // 0x440(0x50)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	int32                                        ZOrder;                                            // 0x490(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         bInteracting;                                      // 0x494(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_517A[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_56CF[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TScriptInterface<class IPalInteractiveObjectComponentInterface> Interactive_Object;                                // 0x498(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash)
 	struct FVector                               IndicatorBoxOffset;                                // 0x4A8(0x18)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FPalInteractiveObjectActionInfoData   OtomoIndicatorActionInfo;                          // 0x4C0(0xC)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	bool                                         bOtomoIndicatorDisplaying;                         // 0x4CC(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_517B[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_56D0[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	double                                       OtomoInteractDistance;                             // 0x4D0(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 	static class UClass* StaticClass();

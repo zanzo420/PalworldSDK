@@ -19,7 +19,7 @@ public:
 	TArray<class FName>                          ItemNameList;                                      // 0x5B0(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 	TArray<class UClass*>                        bulletClass;                                       // 0x5C0(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 	int32                                        CurrentBallIndex;                                  // 0x5D0(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_5755[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5357[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TMap<class FName, enum class EPalCaptureSphereLevelType> ItemName_LevelTypeMap;                             // 0x5D8(0x50)(Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance)
 	FMulticastInlineDelegateProperty_            OnLaunchPalSphere;                                 // 0x628(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	double                                       Const_BulletSpeed;                                 // 0x638(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)

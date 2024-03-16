@@ -25,7 +25,7 @@ public:
 	class UWBP_PalCommonNewMark_0_C*             WBP_PalCommonNewMark_0;                            // 0x2B8(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	FMulticastInlineDelegateProperty_            OnClicked;                                         // 0x2C0(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	enum class EPalUIInGameMainMenuTabType       BindMainMenuType;                                  // 0x2D0(0x1)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_265C[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_578D[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TMap<enum class EPalUIInGameMainMenuTabType, struct FDataTableRowHandle> MsgIDMap;                                          // 0x2D8(0x50)(Edit, BlueprintVisible, DisableEditOnInstance)
 
 	static class UClass* StaticClass();

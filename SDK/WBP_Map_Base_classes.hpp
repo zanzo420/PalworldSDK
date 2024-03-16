@@ -55,14 +55,14 @@ public:
 	TArray<class UWBP_Map_IconTower_C*>          BossTowerIcons;                                    // 0x618(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	bool                                         CustomMarkMode;                                    // 0x628(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         FilterOpened;                                      // 0x629(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_54DB[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_54B2[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class UWBP_WorldMap_IconBase_NoDesign_C*     CurrentSetupIcon;                                  // 0x630(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
 	bool                                         For_Respawn;                                       // 0x638(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_54DC[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_54B3[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<class UWBP_Map_IconPlayer_C*>         PlayerIcons;                                       // 0x640(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	bool                                         Can_Fast_Travel;                                   // 0x650(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsInitSelect;                                      // 0x651(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_54DD[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_54B4[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TSet<enum class EPalLocationType>            FilterIconTypes;                                   // 0x658(0x50)(Edit, BlueprintVisible, DisableEditOnInstance)
 	struct FDataTableRowHandle                   FTMsgID;                                           // 0x6A8(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	struct FDataTableRowHandle                   RespawnMsgID;                                      // 0x6B8(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)

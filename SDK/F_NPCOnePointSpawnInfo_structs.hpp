@@ -25,7 +25,7 @@ public:
 	class UClass*                                OverrideControllerClass_15_6CC42151411B4921090B749ADA0E063F; // 0x70(0x8)(Edit, BlueprintVisible, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	class UClass*                                OverrideDefaultActionClass_16_698E88C544CC5063FF6DE691F6BEA5E9; // 0x78(0x8)(Edit, BlueprintVisible, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	int32                                        OverrideLevel_17_248ED7A04C24B868F231F38B18A56DF2; // 0x80(0x4)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_4DEC[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_3A67[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FF_NPC_PathWalkArray                  PathWalk_25_B786601A4A4C791196C63BAC2D2772DF;      // 0x88(0x10)(Edit, BlueprintVisible, HasGetValueTypeHash)
 };
 

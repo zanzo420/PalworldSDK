@@ -21,16 +21,16 @@ public:
 	class APalPlayerController*                  LocalController;                                   // 0x428(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	TArray<enum class EObjectTypeQuery>          TraceObjectTypeQueryArray;                         // 0x430(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 	enum class EPalCaptureReticleSeqence         ReticleSeqence;                                    // 0x440(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_57CE[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5250[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TSoftObjectPtr<class APalMonsterCharacter>   NowTargetMonster;                                  // 0x448(0x30)(Edit, BlueprintVisible, DisableEditOnInstance, HasGetValueTypeHash)
 	class UPalLoadoutSelectorComponent*          LoadoutSelector;                                   // 0x478(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsCaptureItemEquiped;                              // 0x480(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_57CF[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5251[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TSoftObjectPtr<class APalWeaponBase>         LastEquipedWeapon;                                 // 0x488(0x30)(Edit, BlueprintVisible, DisableEditOnInstance, HasGetValueTypeHash)
 	TMap<TSoftObjectPtr<class ABP_PalCaptureBodyBase_C>, class UWBP_PalGetReticle_C*> SecondStepWidgetMap;                               // 0x4B8(0x50)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	bool                                         IsBonusEnabledWhenLastCheck;                       // 0x508(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsStopReticleUpdate;                               // 0x509(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_57D0[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5252[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	double                                       ReticleStopTimer;                                  // 0x510(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	TMap<TSoftObjectPtr<class APalCharacter>, class UWBP_CaptureFailedPercent_C*> FailedCaptureRateWidgetMap;                        // 0x518(0x50)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	TMap<enum class E_PalCaptureSphereBouncedReason, enum class EPalLogType> BouncedBallLogTypeMap;                             // 0x568(0x50)(Edit, BlueprintVisible)

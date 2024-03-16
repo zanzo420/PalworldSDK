@@ -38,12 +38,12 @@ public:
 	class UWBP_OptionSettings_ListContent_C*     WBP_OptionSettings_VSync;                          // 0x320(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	struct FPalOptionGraphicsSettings            Graphics_Settings_Cache;                           // 0x328(0x54)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	struct FPalOptionLocalStaticSettings         LocalStaticSettingCache;                           // 0x37C(0x40)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
-	uint8                                        Pad_3712[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4D50[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<struct FDataTableRowHandle>           ScreenSettingMsgIds;                               // 0x3C0(0x10)(Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance)
 	TArray<struct FDataTableRowHandle>           LevelMsgIds;                                       // 0x3D0(0x10)(Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance)
 	TArray<struct FDataTableRowHandle>           LevelMsgIds_Graphic;                               // 0x3E0(0x10)(Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance)
 	bool                                         SomethingChanged;                                  // 0x3F0(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_3713[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4D51[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TMap<int32, enum class EAntiAliasingMethod>  AAMap;                                             // 0x3F8(0x50)(Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance)
 	TArray<class FString>                        AASettings;                                        // 0x448(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 	TMap<int32, class FString>                   FPSSelection;                                      // 0x458(0x50)(Edit, BlueprintVisible, DisableEditOnInstance)

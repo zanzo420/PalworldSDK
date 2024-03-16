@@ -40,32 +40,32 @@ struct UWBP_PalKeyGuideIcon_C_OverrideImage_Params
 public:
 	TMap<enum class ECommonInputType, struct FSlateBrush> TempOverrideMap;                                   // 0x0(0x50)(Edit, BlueprintVisible)
 	enum class ECommonInputType                  Temp_byte_Variable;                                // 0x50(0x1)(ConstParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_3ABE[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_45D3[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class UCommonInputSubsystem*                 CallFunc_GetLocalPlayerSubsystem_ReturnValue;      // 0x58(0x8)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	enum class ECommonInputType                  CallFunc_GetCurrentInputType_ReturnValue;          // 0x60(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_3ABF[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_45D4[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TMap<enum class ECommonInputType, struct FSlateBrush> K2Node_MakeVariable_MakeVariableOutput;            // 0x68(0x50)(None)
-	uint8                                        Pad_3AC0[0x8];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_45D5[0x8];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FSlateBrush                           CallFunc_Map_Find_Value;                           // 0xC0(0xD0)(None)
 	bool                                         CallFunc_Map_Find_ReturnValue;                     // 0x190(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_3AC2[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_45D6[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class UPalOptionSubsystem*                   CallFunc_GetOptionSubsystem_ReturnValue;           // 0x198(0x8)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	bool                                         CallFunc_IsValid_ReturnValue;                      // 0x1A0(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_3AC4[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_45D7[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class FString                                CallFunc_Conv_NameToString_ReturnValue;            // 0x1A8(0x10)(ZeroConstructor, HasGetValueTypeHash)
 	class FString                                CallFunc_Concat_StrStr_ReturnValue;                // 0x1B8(0x10)(ZeroConstructor, HasGetValueTypeHash)
 	struct FPalKeyConfigSettings                 CallFunc_GetKeyConfigSettings_ReturnValue;         // 0x1C8(0x160)(ConstParm)
 	class FName                                  CallFunc_Conv_StringToName_ReturnValue;            // 0x328(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FKey                                  CallFunc_Map_Find_Value_1;                         // 0x330(0x18)(HasGetValueTypeHash)
 	bool                                         CallFunc_Map_Find_ReturnValue_1;                   // 0x348(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_3AC6[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_45D8[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FSlateBrush                           CallFunc_Map_Find_Value_2;                         // 0x350(0xD0)(None)
 	bool                                         CallFunc_Map_Find_ReturnValue_2;                   // 0x420(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_3AC7[0xF];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_45D9[0xF];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FSlateBrush                           CallFunc_GetKeyIconByKey_ReturnValue;              // 0x430(0xD0)(None)
 	struct FKey                                  CallFunc_Map_Find_Value_3;                         // 0x500(0x18)(HasGetValueTypeHash)
 	bool                                         CallFunc_Map_Find_ReturnValue_3;                   // 0x518(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_3AC9[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_45DA[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FSlateBrush                           CallFunc_GetIcon_ReturnValue;                      // 0x520(0xD0)(None)
 	struct FSlateBrush                           CallFunc_GetKeyIconByKey_ReturnValue_1;            // 0x5F0(0xD0)(None)
 	enum class ECommonInputType                  Temp_byte_Variable_1;                              // 0x6C0(0x1)(ConstParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
@@ -108,7 +108,7 @@ public:
 	FDelegateProperty_                           K2Node_CreateDelegate_OutputDelegate;              // 0x4(0x10)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	bool                                         K2Node_ComponentBoundEvent_bUsingGamepad;          // 0x14(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         CallFunc_EqualEqual_NameName_ReturnValue;          // 0x15(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_3ACC[0x2];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_45DB[0x2];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class UPalOptionSubsystem*                   CallFunc_GetOptionSubsystem_ReturnValue;           // 0x18(0x8)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	struct FPalKeyConfigSettings                 K2Node_CustomEvent_PrevSettings;                   // 0x20(0x160)(ConstParm)
 	struct FPalKeyConfigSettings                 K2Node_CustomEvent_NewSettings;                    // 0x180(0x160)(ConstParm)

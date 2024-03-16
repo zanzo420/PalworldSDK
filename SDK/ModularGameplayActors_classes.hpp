@@ -25,7 +25,7 @@ public:
 class AModularCharacter : public ACharacter
 {
 public:
-	uint8                                        Pad_1E49[0x8];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_F59[0x8];                                      // Fixing Size Of Struct [ Dumper-7 ]
 
 	static class UClass* StaticClass();
 	static class AModularCharacter* GetDefaultObj();

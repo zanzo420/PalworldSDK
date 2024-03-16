@@ -14,7 +14,7 @@ namespace SDK
 class UABP_Pinkcat_Implementation_C : public UAnimInstance
 {
 public:
-	uint8                                        Pad_4DD6[0x8];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_59B3[0x8];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x350(0x8)(ZeroConstructor, Transient, DuplicateTransient)
 	struct FAnimSubsystemInstance                AnimBlueprintExtension_PropertyAccess;             // 0x358(0x8)(None)
 	struct FAnimSubsystemInstance                AnimBlueprintExtension_Base;                       // 0x360(0x8)(None)
@@ -25,7 +25,7 @@ public:
 	struct FAnimNode_LinkedInputPose             AnimGraphNode_LinkedInputPose_1;                   // 0x538(0xC8)(None)
 	struct FAnimNode_Root                        AnimGraphNode_Root_1;                              // 0x600(0x20)(None)
 	struct FAnimNode_LinkedInputPose             AnimGraphNode_LinkedInputPose;                     // 0x620(0xC8)(None)
-	uint8                                        Pad_4DD7[0x8];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_59B4[0x8];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FAnimNode_LookAt                      AnimGraphNode_LookAt;                              // 0x6F0(0x250)(None)
 	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace;               // 0x940(0x20)(None)
 	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace;               // 0x960(0x20)(None)

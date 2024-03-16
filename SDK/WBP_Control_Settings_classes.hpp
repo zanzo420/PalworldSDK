@@ -34,14 +34,14 @@ public:
 	class UWBP_OptionSettings_ListContent_C*     WBP_OptionSettings_X;                              // 0x300(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	class UWBP_OptionSettings_ListContent_C*     WBP_OptionSettings_Y;                              // 0x308(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	struct FPalOptionAudioSettings               AudioSettingCache;                                 // 0x310(0x1C)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
-	uint8                                        Pad_2BE9[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4D67[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<struct FDataTableRowHandle>           LevelMsgIds;                                       // 0x330(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 	bool                                         SomethingChanged;                                  // 0x340(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_2BEA[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4D68[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPalOptionKeyboardSettings            KeyboardSettingCache;                              // 0x344(0x14)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	struct FPalOptionLocalStaticSettings         LocalStaticSettingCache;                           // 0x358(0x40)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	struct FPalOptionPadSettings                 PadSettingCache;                                   // 0x398(0x1C)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
-	uint8                                        Pad_2BEB[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4D69[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<class UVerticalBox*>                  VerticalBoxs;                                      // 0x3B8(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	TArray<class UWBP_PalCommonButtonBase_C*>    FirstRows;                                         // 0x3C8(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	int32                                        Current;                                           // 0x3D8(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)

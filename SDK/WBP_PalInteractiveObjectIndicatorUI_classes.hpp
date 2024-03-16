@@ -19,18 +19,18 @@ public:
 	struct FVector                               Offset;                                            // 0x418(0x18)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	TMap<enum class EPalInteractiveObjectActionType, struct FDataTableRowHandle> InteractKeyTextIdMap;                              // 0x430(0x50)(Edit, BlueprintVisible, DisableEditOnInstance)
 	enum class EPalInteractiveObjectActionType   Action_Type;                                       // 0x480(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_4812[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_56A9[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TMap<enum class EPalInteractiveObjectActionType, struct FPalDataTableRowName_UIInputAction> ActionTypeNameMap;                                 // 0x488(0x50)(Edit, BlueprintVisible, DisableEditOnInstance)
 	TScriptInterface<class IPalInteractiveObjectComponentInterface> InteractiveObject;                                 // 0x4D8(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	enum class EPalInteractiveObjectButtonType   buttonType;                                        // 0x4E8(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_4813[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_56AA[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	double                                       LongPushTime;                                      // 0x4F0(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FPalUIActionBindData                  TriggerActionHandle;                               // 0x4F8(0x4)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	struct FPalUIActionBindData                  EndTriggerActionhandle;                            // 0x4FC(0x4)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	bool                                         CachedIsValidInteract;                             // 0x500(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         bIsRegisteredActionInput;                          // 0x501(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsEnableSelf;                                      // 0x502(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_4814[0x5];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_56AB[0x5];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FDataTableRowHandle                   LockedByRideMSGID;                                 // 0x508(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	bool                                         CanToggle;                                         // 0x518(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsInteractInterval;                                // 0x519(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)

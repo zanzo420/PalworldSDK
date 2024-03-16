@@ -18,7 +18,7 @@ public:
 	struct FPalDataTableRowName_PalHumanData     NPCName;                                           // 0x5F8(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	class UClass*                                OverrideDefaultAction;                             // 0x600(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	int32                                        OverrideLevel;                                     // 0x608(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_5982[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_530F[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<class UBP_NPCPathWalkPointComponent_1_C*> WalkPointRefarence;                                // 0x610(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 
 	static class UClass* StaticClass();

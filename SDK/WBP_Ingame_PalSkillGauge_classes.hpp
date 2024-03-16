@@ -44,7 +44,7 @@ public:
 	class UWBP_Ingame_PalSkill_Flight_C*         WBP_Ingame_PalSkill_Flight_UP;                     // 0x350(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	class UWBP_PlayerInputKeyGuideIcon_C*        WBP_PlayerInputKeyGuideIcon;                       // 0x358(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	bool                                         IsCoolDown;                                        // 0x360(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_55BD[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_54C6[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<class UMaterialInstanceDynamic*>      SkillGaugeMaterials;                               // 0x368(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 	TArray<class UMaterialInstanceDynamic*>      CoolDownGaugeMaterials;                            // 0x378(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 

@@ -60,14 +60,14 @@ struct UWBP_MapFilter_Content_C_ExecuteUbergraph_WBP_MapFilter_Content_Params
 {
 public:
 	int32                                        EntryPoint;                                        // 0x0(0x4)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_39B4[0xC];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_53AD[0xC];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FSlateBrush                           CallFunc_MakeBrushFromTexture_ReturnValue;         // 0x10(0xD0)(None)
 	struct FLinearColor                          CallFunc_SelectColor_ReturnValue;                  // 0xE0(0x10)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FSlateColor                           K2Node_MakeStruct_SlateColor;                      // 0xF0(0x14)(None)
-	uint8                                        Pad_39B5[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_53AE[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FDataTableRowHandle                   K2Node_CustomEvent_MsgId;                          // 0x108(0x10)(NoDestructor)
 	enum class EPalLocationType                  K2Node_CustomEvent_LocationType;                   // 0x118(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_39B6[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_53AF[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FSlateBrush                           K2Node_SetFieldsInStruct_StructOut;                // 0x120(0xD0)(None)
 	class FText                                  CallFunc_GetLocalizedTextFromHandle_Text;          // 0x1F0(0x18)(None)
 	class UCommonButtonBase*                     K2Node_ComponentBoundEvent_Button_2;               // 0x208(0x8)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)

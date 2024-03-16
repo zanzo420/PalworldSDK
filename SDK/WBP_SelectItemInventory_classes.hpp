@@ -21,7 +21,7 @@ public:
 	class UWBP_PalPlayerInventoryScrollList_C*   WBP_PalPlayerInventoryScrollList;                  // 0x450(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	class UWBP_PlayerInventoryWeightInfo_C*      WBP_PlayerInventoryWeightInfo;                     // 0x458(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	bool                                         IsRequireSelectNum;                                // 0x460(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_1E22[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5990[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class UWBP_PalItemSlotButtonBase_C*          SelectedButton;                                    // 0x468(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
 	class UBP_PalInventoryModel_C*               InventoryModel;                                    // 0x470(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	struct FDataTableRowHandle                   BgMsgID;                                           // 0x478(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)

@@ -67,7 +67,7 @@ public:
 	uint8                                        bAccurateRaycasts : 1;                             // Mask: 0x40, PropSize: 0x10x0(0x1)(Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	uint8                                        bUseValidBounds : 1;                               // Mask: 0x80, PropSize: 0x10x0(0x1)(Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	uint8                                        bFormExtendedStructures : 1;                       // Mask: 0x1, PropSize: 0x10x1(0x1)(Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_1155[0x2];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_CEA[0x2];                                      // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x1C (0x1C - 0x0)
@@ -78,11 +78,11 @@ public:
 	float                                        DamageThreshold;                                   // 0x0(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                        DamageSpread;                                      // 0x4(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                         bEnableImpactDamage;                               // 0x8(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_1156[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_CEB[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
 	float                                        ImpactDamage;                                      // 0xC(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int32                                        DefaultImpactDamageDepth;                          // 0x10(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                         bCustomImpactResistance;                           // 0x14(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_1157[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_CEC[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
 	float                                        ImpactResistance;                                  // 0x18(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
@@ -117,7 +117,7 @@ public:
 	int32                                        SupportDepth;                                      // 0x0(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int32                                        MinimumFractureDepth;                              // 0x4(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                         bEnableDebris;                                     // 0x8(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_115B[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_CED[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
 	int32                                        DebrisDepth;                                       // 0xC(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int32                                        EssentialDepth;                                    // 0x10(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
@@ -128,14 +128,14 @@ struct FDestructibleParameters
 {
 public:
 	struct FDestructibleDamageParameters         DamageParameters;                                  // 0x0(0x1C)(Edit, NoDestructor, NativeAccessSpecifierPublic)
-	uint8                                        Pad_115C[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_CEE[0x4];                                      // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FDestructibleDebrisParameters         DebrisParameters;                                  // 0x20(0x48)(Edit, NoDestructor, NativeAccessSpecifierPublic)
 	struct FDestructibleAdvancedParameters       AdvancedParameters;                                // 0x68(0x10)(Edit, NoDestructor, NativeAccessSpecifierPublic)
 	struct FDestructibleSpecialHierarchyDepths   SpecialHierarchyDepths;                            // 0x78(0x14)(Edit, NoDestructor, NativeAccessSpecifierPublic)
-	uint8                                        Pad_115D[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_CEF[0x4];                                      // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<struct FDestructibleDepthParameters>  DepthParameters;                                   // 0x90(0x10)(Edit, EditFixedSize, ZeroConstructor, NativeAccessSpecifierPublic)
 	struct FDestructibleParametersFlag           Flags;                                             // 0xA0(0x4)(Edit, NoDestructor, NativeAccessSpecifierPublic)
-	uint8                                        Pad_115E[0x4];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_CF0[0x4];                                      // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 }

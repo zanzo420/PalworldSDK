@@ -19,10 +19,10 @@ public:
 	class UCanvasPanel*                          CanvasPanel_0;                                     // 0x418(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	class UWBP_CommonRadialMenuBase_C*           WBP_CommonRadialMenuBase;                          // 0x420(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	bool                                         IsAnyRadialMenuOpened;                             // 0x428(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_2B7E[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_49D8[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class FName                                  CameraModifierName;                                // 0x42C(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	enum class EPlayerRadialMenuOpenType         OpenedRadialType;                                  // 0x434(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_2B7F[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_49D9[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	int32                                        OtomoIndex;                                        // 0x438(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FPalDataTableRowName_UIInputAction    DecideMenuAction;                                  // 0x43C(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	struct FPalUIActionBindData                  Action_Handle;                                     // 0x444(0x4)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)

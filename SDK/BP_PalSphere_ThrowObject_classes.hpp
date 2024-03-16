@@ -14,7 +14,7 @@ namespace SDK
 class ABP_PalSphere_ThrowObject_C : public ABP_ThrowCaptureObjectBase_C
 {
 public:
-	uint8                                        Pad_4166[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4507[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x3B0(0x8)(ZeroConstructor, Transient, DuplicateTransient)
 	class UNiagaraComponent*                     Trail;                                             // 0x3B8(0x8)(BlueprintVisible, ZeroConstructor, InstancedReference, NonTransactional, NoDestructor, HasGetValueTypeHash)
 	class USkeletalMeshComponent*                SK_Weapon_PalSphere_001;                           // 0x3C0(0x8)(BlueprintVisible, ZeroConstructor, InstancedReference, NonTransactional, NoDestructor, HasGetValueTypeHash)
@@ -22,11 +22,11 @@ public:
 	class APalCharacter*                         TargetPal;                                         // 0x3D0(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	struct FVector                               PreLocation;                                       // 0x3D8(0x18)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsBounce;                                          // 0x3F0(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_4167[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4508[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FRotator                              ThrowRotator;                                      // 0x3F8(0x18)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
 	class UNiagaraSystem*                        SneakEffect;                                       // 0x410(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	bool                                         TempCaptureAble;                                   // 0x418(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_4168[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4509[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPalDataTableRowName_SoundID          SoundId_Bounce;                                    // 0x41C(0x8)(Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash)
 	struct FPalDataTableRowName_SoundID          SoundId_HitPal;                                    // 0x424(0x8)(Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsLocalControlled;                                 // 0x42C(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)

@@ -18,7 +18,7 @@ public:
 	TArray<class UPalIndividualCharacterHandle*> SpawnedHandleList;                                 // 0x420(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, AdvancedDisplay)
 	TArray<struct FF_NPCOnePointSpawnInfo>       SpawnInfoList;                                     // 0x430(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 	bool                                         IsLoadingFlag;                                     // 0x440(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_4EEC[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_3533[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	int32                                        SpawnedCount;                                      // 0x444(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	FMulticastInlineDelegateProperty_            OnSquadSpawnedCharacter;                           // 0x448(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 

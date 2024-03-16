@@ -27,7 +27,7 @@ public:
 	double                                       DisplayGaugeRange_Sight;                           // 0x530(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsOverHideTime;                                    // 0x538(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsConflicted;                                      // 0x539(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_59CC[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_50E3[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<class UBP_UIIndividualParameterInitializeWaiter_C*> InitializeWaiters;                                 // 0x540(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 	struct FTimerHandle                          UpdateTimerHandle;                                 // 0x550(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	TArray<class UWidget*>                       DelayCloseGauges;                                  // 0x558(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)

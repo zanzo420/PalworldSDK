@@ -35,7 +35,7 @@ public:
 	FMulticastInlineDelegateProperty_            OnCompleteInput;                                   // 0x4B8(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	struct FPalUIActionBindData                  OpenInventoryActionHandle;                         // 0x4C8(0x4)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	enum class EPalChatCategory                  SelectCategory;                                    // 0x4CC(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_5255[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_52ED[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FTimerHandle                          ChatCloseTimer;                                    // 0x4D0(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	struct FDataTableRowHandle                   ChatHintTextMsgID;                                 // 0x4D8(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 

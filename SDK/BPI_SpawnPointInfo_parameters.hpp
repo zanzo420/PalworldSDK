@@ -19,7 +19,7 @@ struct IBPI_SpawnPointInfo_C_GetOneSpawnInfo_Params
 {
 public:
 	struct FF_NPCOnePointSpawnInfo               Info;                                              // 0x0(0x98)(Parm, OutParm, HasGetValueTypeHash)
-	uint8                                        Pad_4AB4[0x8];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_4CE3[0x8];                                     // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 }

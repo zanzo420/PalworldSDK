@@ -27,12 +27,12 @@ public:
 	class UWBP_Menu_btn_C*                       WBP_Menu_btn;                                      // 0x480(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	class FName                                  TabActionName;                                     // 0x488(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	enum class EPalBaseCampPassiveEffectWorkHardType WorkHardLevel;                                     // 0x490(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_5143[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_574A[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TMap<enum class EPalBaseCampPassiveEffectWorkHardType, class UWBP_IngameMenu_Monitoring_WorkButton_C*> WorkHardButtonMap;                                 // 0x498(0x50)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	class UPalMapObjectBaseCampPassiveWorkHardModel* PalWorkHardModel;                                  // 0x4E8(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	TArray<class UWBP_IngameMenu_Monitoring_WorkInfo_C*> WorkInfos;                                         // 0x4F0(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
 	bool                                         IsHovering;                                        // 0x500(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_5144[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_574B[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<struct FDataTableRowHandle>           WorkHardMsgIds;                                    // 0x508(0x10)(Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance)
 
 	static class UClass* StaticClass();

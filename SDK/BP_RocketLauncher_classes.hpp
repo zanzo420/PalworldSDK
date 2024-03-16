@@ -14,7 +14,7 @@ namespace SDK
 class ABP_RocketLauncher_C : public ABP_AssaultRifleBase_C
 {
 public:
-	uint8                                        Pad_5759[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5338[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x578(0x8)(ZeroConstructor, Transient, DuplicateTransient)
 	class UStaticMeshComponent*                  Sphere;                                            // 0x580(0x8)(BlueprintVisible, ZeroConstructor, InstancedReference, NonTransactional, NoDestructor, HasGetValueTypeHash)
 	class UChildActorComponent*                  BP_Ammo_Rocket;                                    // 0x588(0x8)(BlueprintVisible, ZeroConstructor, InstancedReference, NonTransactional, NoDestructor, HasGetValueTypeHash)

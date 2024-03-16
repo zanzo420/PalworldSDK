@@ -18,7 +18,7 @@ public:
 	class UWidgetAnimation*                      Anm_Open;                                          // 0x280(0x8)(BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, RepSkip, NoDestructor, HasGetValueTypeHash)
 	class UVerticalBox*                          VerticalBox_0;                                     // 0x288(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	bool                                         Displaying;                                        // 0x290(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_33E4[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_629[0x7];                                      // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<class FName>                          Crime_Ids;                                         // 0x298(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 
 	static class UClass* StaticClass();

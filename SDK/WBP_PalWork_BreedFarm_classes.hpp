@@ -27,7 +27,7 @@ public:
 	class UWBP_RequirePalInfo_C*                 WBP_RequirePalInfo;                                // 0x458(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	struct FTimerHandle                          DisplayCheckTimer;                                 // 0x460(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	bool                                         IsDisplayedDetail;                                 // 0x468(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_4FC8[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_3BB0[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class UPalMapObjectBreedFarmModel*           Breed_Farm_Model;                                  // 0x470(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	struct FDataTableRowHandle                   CanBreedMsgId;                                     // 0x478(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	struct FDataTableRowHandle                   CantBreedMsgId;                                    // 0x488(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)

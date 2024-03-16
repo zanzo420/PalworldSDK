@@ -36,7 +36,7 @@ struct ABP_PalWindController_C_ExecuteUbergraph_BP_PalWindController_Params
 {
 public:
 	int32                                        EntryPoint;                                        // 0x0(0x4)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_4DE9[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_4E1E[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FPalWindInfo                          K2Node_Event_WindInfo;                             // 0x8(0x20)(ConstParm, NoDestructor)
 };
 
